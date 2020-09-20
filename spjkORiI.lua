@@ -1619,7 +1619,7 @@ gg.editAll("7",gg.TYPE_DWORD)
     
     function YELLOW855()
     gg.clearResults()
-    gg.setRanges(gg.REGION_VIDEO)
+    gg.setRanges(gg.REGION_BAD)
     gg.searchNumber('1.14906474e-41;1.14920487e-41', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
     gg.getResults(69)
     gg.editAll('1.14892461e-41', gg.TYPE_FLOAT)
